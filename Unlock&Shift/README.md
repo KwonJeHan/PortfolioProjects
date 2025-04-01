@@ -104,41 +104,41 @@
 
 #### **플레이어 캐릭터**
 
-![BP_Priest1](../images/README/BP_Priest1.png)
+![BP_Priest1](../images/Unlock&Shift/BP_Priest1.png)
 
 캐릭터 초기화
 
 
 
-![BP_Priest2](../images/README/BP_Priest2.png)
+![BP_Priest2](../images/Unlock&Shift/BP_Priest2.png)
 
 탑뷰 이동
 
 
 
-![BP_Priest3](../images/README/BP_Priest3.png)
+![BP_Priest3](../images/Unlock&Shift/BP_Priest3.png)
 
 사이드뷰 이동
 
 
 
-![BP_Priest4](../images/README/BP_Priest4.png)
+![BP_Priest4](../images/Unlock&Shift/BP_Priest4.png)
 
 점프
 
 
 
-![BP_Priest5](../images/README/BP_Priest5.png)
+![BP_Priest5](../images/Unlock&Shift/BP_Priest5.png)
 
-![BP_Priest8](../images/README/BP_Priest8.png)
+![BP_Priest8](../images/Unlock&Shift/BP_Priest8.png)
 
 카메라 스위칭 로직 - 카메라 2개를 배치하고 바꿔가며 Active 하는 방식
 
 
 
-![BP_Priest6](../images/README/BP_Priest6.png)
+![BP_Priest6](../images/Unlock&Shift/BP_Priest6.png)
 
-![BP_Priest7](../images/README/BP_Priest7.png)
+![BP_Priest7](../images/Unlock&Shift/BP_Priest7.png)
 
 Raycast 로직
 
@@ -146,159 +146,159 @@ Raycast 로직
 
 #### **오브젝트**
 
-![BPI_Interactable](../images/README/BPI_Interactable.png)
+![BPI_Interactable](../images/Unlock&Shift/BPI_Interactable.png)
 
 공통적으로 상속받게 될 BPI_Interactable
 
 
 
-![BP_MasterItem1](../images/README/BP_MasterItem1.png)
+![BP_MasterItem1](../images/Unlock&Shift/BP_MasterItem1.png)
 
-![BP_MasterItem2](../images/README/BP_MasterItem2.png)
+![BP_MasterItem2](../images/Unlock&Shift/BP_MasterItem2.png)
 
-![BP_MasterItem3](../images/README/BP_MasterItem3.png)
+![BP_MasterItem3](../images/Unlock&Shift/BP_MasterItem3.png)
 
-![BP_MasterItem4](../images/README/BP_MasterItem4.png)
+![BP_MasterItem4](../images/Unlock&Shift/BP_MasterItem4.png)
 
 모든 상호작용 가능 오브젝트들의 부모가 될 MasterItem 블루프린트
 
 
 
-![BP_Key](../images/README/BP_Key.png)
+![BP_Key](../images/Unlock&Shift/BP_Key.png)
 
 열쇠 블루프린트 - 열쇠를 주울 시 지정된 Door의 PickUpKey 이벤트 발생
 
 
 
-![BP_Door1](../images/README/BP_Door1.png)
+![BP_Door1](../images/Unlock&Shift/BP_Door1.png)
 
 배치된 문의 회전값 변수
 
 
 
-![BP_Door2](../images/README/BP_Door2.png)
+![BP_Door2](../images/Unlock&Shift/BP_Door2.png)
 
-![BP_Door3](../images/README/BP_Door3.png)
+![BP_Door3](../images/Unlock&Shift/BP_Door3.png)
 
 문 상호작용 및 일정 거리만큼 떨어질 시 닫히는 로직의 블루프린트
 
 
 
-![BPI_Door](../images/README/BPI_Door.png)
+![BPI_Door](../images/Unlock&Shift/BPI_Door.png)
 
-![BP_Door5](../images/README/BP_Door5.png)
+![BP_Door5](../images/Unlock&Shift/BP_Door5.png)
 
-![BP_Door4](../images/README/BP_Door4.png)
+![BP_Door4](../images/Unlock&Shift/BP_Door4.png)
 
 열쇠를 주울 시 발생하는 이벤트
 
 
 
-![BP_Door6](../images/README/BP_Door6.png)
+![BP_Door6](../images/Unlock&Shift/BP_Door6.png)
 
 BP_Door의 트리거콜리전 배치
 
 
 
-![BP_SideDoor1](../images/README/BP_SideDoor1.png)
+![BP_SideDoor1](../images/Unlock&Shift/BP_SideDoor1.png)
 
 사이드뷰 일 시에만 열리는 SideDoor - 열었을 때 사라지는 효과로 머티리얼 조정을 위한 Dynamic Material Instance 생성
 
 
 
-![BP_SideDoor2](../images/README/BP_SideDoor2.png)
+![BP_SideDoor2](../images/Unlock&Shift/BP_SideDoor2.png)
 
 SideDoor상호작용 시 로직
 
 
 
-![BP_SideDoor3](../images/README/BP_SideDoor3.png)
+![BP_SideDoor3](../images/Unlock&Shift/BP_SideDoor3.png)
 
 오버랩 되었을 때 사이드뷰 상태일 시 상호작용 가능하게 만드는 로직
 
 
 
-![BP_SideDoor4](../images/README/BP_SideDoor4.png)
+![BP_SideDoor4](../images/Unlock&Shift/BP_SideDoor4.png)
 
 SideDoor 트리거콜리전 배치
 
 
 
-![BP_Bomb1](../images/README/BP_Bomb1.png)
+![BP_Bomb1](../images/Unlock&Shift/BP_Bomb1.png)
 
 생성 시 머티리얼 조정으로 점점 빛나다가 2초 후 사라지면서 플레이어를 Block하는 SphereCollision Scale을 늘렸다가 다시 줄여서 플레이어가 밀려나게 하는 폭탄 - 게임 진행에도 사용되므로 반복적으로 사용할 수 있게 폭발 후 다시 폭탄이 나오는 상자를 생성
 
 
 
-![BP_Bomb2](../images/README/BP_Bomb2.png)
+![BP_Bomb2](../images/Unlock&Shift/BP_Bomb2.png)
 
 폭탄 머티리얼
 
 
 
-![BP_ViewChanger](../images/README/BP_ViewChanger.png)
+![BP_ViewChanger](../images/Unlock&Shift/BP_ViewChanger.png)
 
 오버랩 시 시점을 변환시켜 주는 ViewChanger 오브젝트
 
 
 
-![InteractableChest](../images/README/InteractableChest.png)
+![InteractableChest](../images/Unlock&Shift/InteractableChest.png)
 
 다른 상자들의 부모가 될 상호작용 가능한 상자 블루프린트
 
 
 
-![ChestToKey](../images/README/ChestToKey.png)
+![ChestToKey](../images/Unlock&Shift/ChestToKey.png)
 
 열쇠를 생성하는 상자
 
 
 
-![ChestToBomb](../images/README/ChestToBomb.png)
+![ChestToBomb](../images/Unlock&Shift/ChestToBomb.png)
 
 폭탄을 생성하는 상자
 
 
 
-![ChestToViewChanger](../images/README/ChestToViewChanger.png)
+![ChestToViewChanger](../images/Unlock&Shift/ChestToViewChanger.png)
 
 시점 전환기를 생성하는 상자 - ViewPos 위치에 생성
 
 
 
-![ClearChest](../images/README/ClearChest.png)
+![ClearChest](../images/Unlock&Shift/ClearChest.png)
 
 게임 클리어 상자 - 커다란 보물 상자
 
 
 
-![Platform](../images/README/Platform.png)
+![Platform](../images/Unlock&Shift/Platform.png)
 
 움직이는 플랫폼 블루프린트
 
 
 
-![Teleport1](../images/README/Teleport1.png)
+![Teleport1](../images/Unlock&Shift/Teleport1.png)
 
-![Teleport2](../images/README/Teleport2.png)
+![Teleport2](../images/Unlock&Shift/Teleport2.png)
 
 캐릭터를 지정 위치로 텔레포트 시켜주는 포탈 - TeleportPos를 편집 가능하고 3D 위젯이 보이게 해서 직관적으로 어디에 텔레포트 시킬 지 설정 가능
 
 
 
-![Wall1](../images/README/Wall1.png)
+![Wall1](../images/Unlock&Shift/Wall1.png)
 
 캐릭터가 오보랩 시 다시 뒤로 가지 못하게 벽이 생성되는 Wall 블루프린트
 
 
 
-![Wall2](../images/README/Wall2.png)
+![Wall2](../images/Unlock&Shift/Wall2.png)
 
 Wall의 콜리전 배치 - 콜리적에 오버랩 시 기즈모 위치에 벽이 생성된다.
 
 
 
-![BP_Respawn](../images/README/BP_Respawn.png)
+![BP_Respawn](../images/Unlock&Shift/BP_Respawn.png)
 
 추락 시 다시 맵 위로 이동시키는 용도로 맵의 추락 지점에 넓게 배치되는 Respawn 블루프린트
 
@@ -306,27 +306,27 @@ Wall의 콜리전 배치 - 콜리적에 오버랩 시 기즈모 위치에 벽이
 
 #### **UI**
 
-![MainMenu](../images/README/MainMenu.png)
+![MainMenu](../images/Unlock&Shift/MainMenu.png)
 
 게임 시작 시 볼 수 있는 MainMenu 위젯 블루프린트
 
 
 
-![GameClear](../images/README/GameClear.png)
+![GameClear](../images/Unlock&Shift/GameClear.png)
 
 게임 클리어 시 게임 화면에 나타나는 GameClear 위젯 블루프린트
 
 
 
-![Text1](../images/README/Text1.png)
+![Text1](../images/Unlock&Shift/Text1.png)
 
-![Text2](../images/README/Text2.png)
+![Text2](../images/Unlock&Shift/Text2.png)
 
 튜토리얼 레벨에서 가이드용 텍스트를 출력하기 위해 TextRender 컴포넌트를 활용한 부모 Text 블루프린트
 
 
 
-![Text3](../images/README/Text3.png)
+![Text3](../images/Unlock&Shift/Text3.png)
 
 부모 Text 블루프린트로부터 자손 블루프린트를 생성해 필요한 텍스트들을 생성 및 배치
 
