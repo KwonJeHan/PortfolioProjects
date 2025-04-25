@@ -178,7 +178,7 @@ GameLevel을 만들 때 SelectStage 함수를 호출
 
 Game 클래스의 NextLevel 함수를 만들고 새로운 레벨 만들기 및 삭제 기능 구현
 
- ---
+---
 
 ![6-5.stageClear](../images/DOS_Helltaker/6-5.stageClear.PNG)
 
@@ -249,6 +249,12 @@ Main.cpp 실행 시 new MainLevel을 만들어서 LoadLevel로 호출
 #### **게임 클리어**
 
 ![GameClear](../images/DOS_Helltaker/GameClear.gif)
+
+---
+
+**시연 영상 유튜브 링크**
+
+https://youtu.be/a_euDOqtRK0
 
 
 
