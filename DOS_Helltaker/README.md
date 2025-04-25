@@ -150,7 +150,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 
 
-![4-9.sDestroy](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\4-9.sDestroy-1745562332379-1.PNG)스켈레톤은 바위와 다르게 밀리는 방향에 이동 불가 장애물이 있을 시 파괴
+![4-9.sDestroy](../images/DOS_Helltaker/4-9.sDestroy.PNG)스켈레톤은 바위와 다르게 밀리는 방향에 이동 불가 장애물이 있을 시 파괴
 
 
 
