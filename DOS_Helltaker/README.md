@@ -8,9 +8,9 @@
 
 ### 1-1. 구현 게임
 
-![HelltakerMain](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\HelltakerMain.jpg)
+![HelltakerMain](..\images\DOS_Helltaker\HelltakerMain.jpg)
 
-![HelltakerPlay](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\HelltakerPlay.png)
+![HelltakerPlay](../images/DOS_Helltaker/HelltakerPlay.png)
 
 Steam 무료 인디 게임 **HELLTAKER**
 
@@ -96,7 +96,7 @@ Steam 무료 인디 게임 **HELLTAKER**
 
 #### **이동 횟수 추가 및 게임 오버 추가**
 
-![1.movecount](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\1.movecount.PNG)
+![1.movecount](../images/DOS_Helltaker/1.movecount.PNG)
 
 moveCount 변수 선언 및 키보드 입력을 받으면 값을 1 씩 증가
 
@@ -104,7 +104,7 @@ moveCount 변수 선언 및 키보드 입력을 받으면 값을 1 씩 증가
 
 
 
-![2.Gameover](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\2.Gameover.PNG)
+![2.Gameover](../images/DOS_Helltaker/2.Gameover.PNG)
 
 moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
@@ -114,7 +114,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 #### **구현되어 있는 액터 로직 변경**
 
- ![3-1.stone](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\3-1.stone.PNG)
+ ![3-1.stone](../images/DOS_Helltaker/3-1.stone.PNG)
 
 바위, 스켈레톤을 밀 때 바위나 해골은 이동하지만 캐릭터는 이동하면 안된다.
 
@@ -124,7 +124,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 #### **신규 액터 추가 (스켈레톤, 가시 함정, 열쇠, 문, 악마)**
 
-![4-1.skeleton](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\4-1.skeleton.PNG)
+![4-1.skeleton](../images/DOS_Helltaker/4-1.skeleton.PNG)
 
 기존 액터들과 같은 형식으로 추가
 
@@ -132,7 +132,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 
 
-![4-6.list](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\4-6.list.PNG)
+![4-6.list](../images/DOS_Helltaker/4-6.list.PNG)
 
 악마는 스테이지 당 1명
 
@@ -140,7 +140,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 
 
-![4-8.sDraw](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\4-8.sDraw.PNG)
+![4-8.sDraw](../images/DOS_Helltaker/4-8.sDraw.PNG)
 
 스켈레톤, 열쇠, 문은 바위와 같이 땅 위에 덮어쓰는 형태로 생성
 
@@ -150,13 +150,13 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 
 
-스켈레톤![4-9.sDestroy](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\4-9.sDestroy.PNG)은 바위와 다르게 밀리는 방향에 이동 불가 장애물이 있을 시 파괴
+스켈레톤![4-9.sDestroy](../images/DOS_Helltaker/4-9.sDestroy.PNG)은 바위와 다르게 밀리는 방향에 이동 불가 장애물이 있을 시 파괴
 
 
 
 
 
-![4-10.gDestroy](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\4-10.gDestroy.PNG)
+![4-10.gDestroy](../images/DOS_Helltaker/4-10.gDestroy.PNG)
 
 문은 열쇠가 있으면 열쇠 개수를 하나 줄이고 사라짐, 없으면 이동 불가
 
@@ -164,7 +164,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 
 
-![4-11.kDestroy](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\4-11.kDestroy.PNG)
+![4-11.kDestroy](../images/DOS_Helltaker/4-11.kDestroy.PNG)
 
 열쇠는 충돌 시 사라지며 열쇠 개수 하나 증가
 
@@ -172,7 +172,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 
 
-![4-12.spikePosition](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\4-12.spikePosition.PNG)
+![4-12.spikePosition](../images/DOS_Helltaker/4-12.spikePosition.PNG)
 
 가시 함정은 충돌 시 moveCount 값 1 더 증가
 
@@ -182,7 +182,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 #### **스테이지 구상 및 txt파일 추가**
 
-![5-1.map1](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\5-1.map1-1745561256551-18.PNG)![5-2.map2](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\5-2.map2.PNG)
+![5-1.map1](../images/DOS_Helltaker/5-1.map1.PNG)![5-2.map2](../images/DOS_Helltaker/5-2.map2.PNG)
 
 텍스트 파일에 위와 같이 텍스트 작성
 
@@ -192,7 +192,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 #### **스테이지 클리어 및 전환 추가**
 
-![6-1.stageClear](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\6-1.stageClear.PNG)
+![6-1.stageClear](../images/DOS_Helltaker/6-1.stageClear.PNG)
 
 마지막 스테이지 (현 프로젝트에선 4번째 스테이지)를 클리어 시 lastStage 값이 True로 변경되므로 조건문을 위와 같이 작성
 
@@ -200,7 +200,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 
 
-![6-2.selectStage](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\6-2.selectStage.PNG)
+![6-2.selectStage](../images/DOS_Helltaker/6-2.selectStage.PNG)
 
 기존에 있던 파일 입출력을 const char* 타입의 인수를 받는 함수로 만들어 switch 문으로 스테이지 전환
 
@@ -208,7 +208,7 @@ moveLimit 값보다 moveCount 값이 더 커지면 true 반환
 
 
 
-![6-4.gameStage](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\6-4.gameStage.PNG)
+![6-4.gameStage](../images/DOS_Helltaker/6-4.gameStage.PNG)
 
 GameLevel을 만들 때 SelectStage 함수를 호출
 
@@ -216,7 +216,7 @@ GameLevel을 만들 때 SelectStage 함수를 호출
 
 
 
-![6-3.nextStage](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\6-3.nextStage.PNG)
+![6-3.nextStage](../images/DOS_Helltaker/6-3.nextStage.PNG)
 
 Game 클래스의 NextLevel 함수를 만들고 새로운 레벨 만들기 및 삭제 기능 구현
 
@@ -224,7 +224,7 @@ Game 클래스의 NextLevel 함수를 만들고 새로운 레벨 만들기 및 �
 
 
 
-![6-5.stageClear](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\6-5.stageClear.PNG)
+![6-5.stageClear](../images/DOS_Helltaker/6-5.stageClear.PNG)
 
 스테이지 클리어 시 NextLevel 함수 호출
 
@@ -234,7 +234,7 @@ Game 클래스의 NextLevel 함수를 만들고 새로운 레벨 만들기 및 �
 
 #### **게임 클리어 로직 변경**
 
-![7.gameClear](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\7.gameClear.PNG)
+![7.gameClear](../images/DOS_Helltaker/7.gameClear.PNG)
 
 마지막 스테이지 클리어 시 lastStage가 True로 할당되고 게임 클리어
 
@@ -244,7 +244,7 @@ Game 클래스의 NextLevel 함수를 만들고 새로운 레벨 만들기 및 �
 
 #### **메인 메뉴 추가**
 
-![8.mainMenu](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\8.mainMenu.PNG)
+![8.mainMenu](../images/DOS_Helltaker/8.mainMenu.PNG)
 
 Mainmenu 클래스 및 함수 추가
 
@@ -252,7 +252,7 @@ Mainmenu 클래스 및 함수 추가
 
 
 
-![9.maincpp](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\9.maincpp.PNG)
+![9.maincpp](../images/DOS_Helltaker/9.maincpp.PNG)
 
 Main.cpp 실행 시 new MainLevel을 만들어서 LoadLevel로 호출
 
@@ -264,7 +264,7 @@ Main.cpp 실행 시 new MainLevel을 만들어서 LoadLevel로 호출
 
 **메인 메뉴**
 
-![Mainmenu](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\Mainmenu.gif)
+![Mainmenu](../images/DOS_Helltaker/Mainmenu.gif)
 
 
 
@@ -272,7 +272,7 @@ Main.cpp 실행 시 new MainLevel을 만들어서 LoadLevel로 호출
 
 **바위 충돌**
 
-![Stone](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\Stone.gif)
+![Stone](../images/DOS_Helltaker/Stone.gif)
 
 
 
@@ -280,7 +280,7 @@ Main.cpp 실행 시 new MainLevel을 만들어서 LoadLevel로 호출
 
 **문 충돌**
 
-![Gate](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\Gate.gif)
+![Gate](../images/DOS_Helltaker/Gate.gif)
 
 
 
@@ -288,7 +288,7 @@ Main.cpp 실행 시 new MainLevel을 만들어서 LoadLevel로 호출
 
 **가시 함정, 열쇠 2개 획득**
 
-![SpikeKey](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\SpikeKey.gif)
+![SpikeKey](../images/DOS_Helltaker/SpikeKey.gif)
 
 
 
@@ -296,7 +296,7 @@ Main.cpp 실행 시 new MainLevel을 만들어서 LoadLevel로 호출
 
 **스테이지 전환**
 
-![SelectStage](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\SelectStage.gif)
+![SelectStage](../images/DOS_Helltaker/SelectStage.gif)
 
 
 
@@ -304,13 +304,13 @@ Main.cpp 실행 시 new MainLevel을 만들어서 LoadLevel로 호출
 
  **1스테이지 클리어**
 
-![1stageClear](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\1stageClear.gif)
+![1stageClear](../images/DOS_Helltaker/1stageClear.gif)
 
 
 
 **게임 클리어**
 
-![GameClear](C:\projects\KwonJeHan-github-blog\KwonJeHan.github.io\images\README\GameClear.gif)
+![GameClear](../images/DOS_Helltaker/GameClear.gif)
 
 
 
