@@ -254,7 +254,7 @@ Main.cpp 실행 시 new MainLevel을 만들어서 LoadLevel로 호출
 
 **시연 영상 유튜브 링크**
 
-https://youtu.be/a_euDOqtRK0
+**https://youtu.be/a_euDOqtRK0**
 
 
 
