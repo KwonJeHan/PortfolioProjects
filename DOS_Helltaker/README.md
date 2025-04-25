@@ -12,10 +12,6 @@
 
 ![HelltakerPlay](../images/DOS_Helltaker/HelltakerPlay.png)
 
-
-
-
-
 Steam 무료 인디 게임 **HELLTAKER**
 
 
