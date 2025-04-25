@@ -8,7 +8,7 @@
 
 ### 1-1. 구현 게임
 
-![HelltakerMain](..\images\DOS_Helltaker\HelltakerMain.jpg)
+![HelltakerMain](../images/DOS_Helltaker/HelltakerMain.jpg)
 
 ![HelltakerPlay](../images/DOS_Helltaker/HelltakerPlay.png)
 
